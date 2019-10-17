@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Reminder</string>
+    <string name="save">Cохранить</string>
+    <string name="date">На дату</string>
+    <string name="date_title">Выберете дату</string>
+    <string name="time_title">Выберете время</string>
+    <string name="delete">Удалить</string>
+    <string name="query">Удалить заметку?</string>
+</resources>
