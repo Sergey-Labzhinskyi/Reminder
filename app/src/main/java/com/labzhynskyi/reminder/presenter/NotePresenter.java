@@ -96,11 +96,11 @@ public class NotePresenter implements INotePresenter, DataBaseHelper.DataBaseHel
     @Override
     public void saveNote() {
         mDataBaseHelper = new DataBaseHelper(this);
-        mDataBaseHelper.saveNote(mNote);
+        
 
         if (mClick) {
             if (mNote.getDescription() != null && mNote.getCalendar() != null) {
-
+mDataBaseHelper.saveNote(mNote);
             } else {
                 Toast.makeText(App.getAppContext(), "Введите данные", Toast.LENGTH_SHORT).show();
             }
